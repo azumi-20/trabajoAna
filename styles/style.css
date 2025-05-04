@@ -179,9 +179,10 @@ header{
     .nav__menu ul{
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        margin: 1em auto;
         transform: translateY(-4em);
         opacity: 0;
+        /* padding-top: 2em; */
     }
 
     .nav__menu ul li{
