@@ -314,7 +314,6 @@ footer {
 @media(max-width:480px) {
     .text_footer {
         padding: 15px;
-        margin-left: 1em;
       }
 
       .text_footer a{
