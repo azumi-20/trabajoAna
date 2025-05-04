@@ -179,13 +179,7 @@ footer {
         justify-content: center;
         transform: translateX(-2em);
       }
-      .text_footer_one{
-        transform: translateX(2em);
-      }
 
-      .text_footer_one .final{
-        transform: translateX(1em);
-      }
     
 }
 
