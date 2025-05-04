@@ -398,3 +398,26 @@ footer{
 }
 
 }
+
+@media(max-width:480px){
+    .text_footer {
+        padding: 1rem;
+    }
+
+    .text_footer a {
+        text-align: center;
+        width: 90%;
+        margin-left: -1em;
+     }
+
+    .text_footer_one p {
+        margin-left: -2em;
+        font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+    }
+
+    .contenido-txt h2 {
+        margin-left: -1.3em;
+        padding-top: 1.6em; /* Reduce el padding lateral para pantallas más pequeñas */
+        text-align: center; /* Asegura que el texto esté centrado */
+    }
+}

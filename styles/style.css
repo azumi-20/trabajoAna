@@ -141,14 +141,13 @@ header{
     top: 0;
 }
 
-
 @media(max-width:991px){
     .container_menu{
-       padding: 10px 0px;
+        padding: 10px 0px;
     }
 
     .nav-bar{
-       padding: 20px;
+        padding: 20px;
     }
 
     .nav__toggle{
@@ -170,7 +169,7 @@ header{
         background-color: var(--color-background);
         transition: top .4s;
         padding-block: 4rem;
-        height: 300px;
+        height: 500px;
         box-shadow: 0 8px 16px hsl(166, 85%, 8%, .3);
         overflow: hidden;
         opacity: 0;
@@ -187,137 +186,88 @@ header{
     .nav__menu ul li{
         margin-bottom: 25px;
     }
+
     .nav__menu ul li a{
         line-height: normal;
         color: var(--color-texto);
         font-size: 18px;
     }
 
-    
     .nav__menu ul li a:hover,
     .nav__menu ul li a.home{
-     color: var(--color-text-header) ;
- }
+        color: var(--color-text-header);
+    }
 
     .nav__menu.active{
-    opacity: 1;
-}
+        opacity: 1;
+    }
 
     .nav__menu.active ul{
-    opacity: 1;
-}
-
-
-.contenido_home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .text_title  {
-    font-size: 3rem;
-    width: 90%;
-    text-align: center;
-  }
-
-  .icono_whastA {
-    margin: 2em auto 0;
-    display: block;
-  }
-
-  .logo-img {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  .logo-img img {
-    margin-left: 1rem;
-    margin-right: 0;
- 
-}
-
-
-
-}
-
-@media (max-width: 480px) {
-    .container_menu {
-      padding: 10px 1rem;
+        opacity: 1;
     }
-  
-    .nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: row-reverse; /* Logo a la derecha */
-    }
-  
-    .nav__toggle {
-      display: block;
-      cursor: pointer;
-      padding: 10px;
-      margin-right: auto;
-    }
-  
-    .logo-img {
-      margin-left: auto;
-    }
-  
-    .logo-img img {
-      max-width: 120px;
-      height: auto;
-    }
-  
-    .nav__menu {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: var(--color-background);
-      transition: opacity 0.4s ease;
-      padding-top: 6rem;
-      box-shadow: 0 8px 16px hsl(166, 85%, 8%, .3);
-      opacity: 0;
-      pointer-events: none;
-      z-index: 10;
-    }
-  
-    .nav__menu.active {
-      opacity: 1;
-      pointer-events: auto;
-    }
-  
-    .nav__menu ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 2rem;
-      opacity: 1;
-      transform: none;
-    }
-  
-    .nav__menu ul li a {
-      font-size: 1.4rem;
-      color: var(--color-texto);
-    }
-  
-    .nav__menu ul li a:hover,
-    .nav__menu ul li a.home {
-      color: var(--color-text-header);
+
+    .contenido_home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .text_title  {
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 90%;
-      }
-    
-      .icono_whastA {
+        text-align: center;
+    }
+
+    .icono_whastA {
         margin: 2em auto 0;
-      }
-    
-  }
+        display: block;
+    }
+
+    .logo-img {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .logo-img img {
+        margin-left: 1rem;
+        margin-right: 0;
+    }
+
+}
+
+/* Media Query para pantallas de 480px o menos */
+@media(max-width:480px){
+    .nav__toggle{
+        padding-top: 30px;
+        padding-right: 0.5rem; /* Menos espacio a la derecha */
+    }
+
+    .nav__menu{
+        height: 400px; /* Reducimos la altura */
+        padding-block: 3rem; /* Ajuste de padding */
+    }
+
+    .nav__menu ul li a{
+        font-size: 16px; /* Reducir tamaño de texto */
+    }
+
+    .text_title  {
+        font-size: 2.5rem; /* Reducir tamaño de texto en pantallas muy pequeñas */
+        width: 90%;
+        text-align: center;
+    }
+
+    .icono_whastA {
+        margin: 1.5em auto 0; /* Ajuste del margen */
+    }
+
+    .logo-img img {
+        width: 80px; /* Ajuste del tamaño de la imagen */
+        height: auto;
+    }
+}
+
   
