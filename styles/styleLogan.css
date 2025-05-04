@@ -1,405 +1,282 @@
-.Login{
-    border: 2px solid transparent;
+:root {
+    --color-primer: #a3a3a3;
+    --color-cuear: #000000;
+
+}
+
+
+.Login {
+    display: flex;
     width: 866px;
     height: 510px;
-    box-shadow: 0 0 10px var(--color-primer);
-    margin: auto;
-    background-color: rgba(80, 80, 80, 0.1);
+    margin: 40px auto;
+    box-shadow: 0 0 3px var(--color-primer);
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
-.imagen{
-    display: flex;
-    justify-content: space-between;
-
+.imagen {
+    width: 327px;
+    height: 100%;
 }
 
-.imagen img{
-    width: 327px ;
-    height:510px;
+.imagen img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    cursor: pointer;
-    transform: translateY(-2px);
+    display: block;
 }
 
-.image-container{
-    padding-top: 40px;
-}
-
-.contenido-txt{
-    padding: 6% 23% 0px 15%;
-    text-align: center;
-   
-}
-
-.contenido-txt h2{
-    font-size: 24px;
-    margin-bottom: 5em;
-    color: #000000;
-    font-weight: bold;
-    letter-spacing: 1px;
-    -webkit-text-stroke: 1px #000000;
-
-    text-align: center;
-    font-weight: bolder;
-    position: absolute;
-    left: 53%; /* Centra horizontalmente */
-    transform: translateY(-80%);
-}
-
-.container.login-menu , 
-.container.login-menu1 , 
-.container.login-menu2 {
+.contenido-txt {
+    flex: 1;
+    padding: 40px;
     position: relative;
-      margin: 30px 0;
-}
-/*Formato formulario*/
-.login-menu , 
-.login-menu1 , 
-.login-menu2 , .login-menu3, .login-menu4{
-    padding: 20px 5px 0px;
-    letter-spacing: 1px;
 }
 
-
-.login-menu input , 
-.login-menu1 input, 
-.login-menu2 input, .login-menu3 input{
-    width: 385px;
-    height: 38px;
-    color: var(--color-cuear);
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 10px;
-    transform: translateX(-70px);
-    background-color: #ffffff;
-}
-/*Logo*/
-.login-menu i,
-.login-menu1 i,
-.login-menu2 i{
-  float: right;
-  transform: translateY(-25px);
-  margin-right: 5em;
-  cursor: pointer;
-  font-size: 17px;
-  color: #000000;
-}
-
-.login-menu input::placeholder,
-.login-menu1 input::placeholder,
-.login-menu2 input::placeholder{
-    margin-left: 70px;
-    color: #736767;
-}
-
-
-h4{
-    text-align: left;
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 5px;
-    transform: translateX(-70px);
-}
-
-.login-menu3 select{
-    width: 385px;
-    height: 40px;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 10px;
-    transform: translateX(-70px);
-    background-color: #ffffff;
-}
-
-.login-menu4 textarea{
-    width: 385px;
-    height: 75px;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 10px;
-    font-size: 16px;
-    padding: 10px;
-    transform: translateX(-70px);
-    background-color: #ffffff;
-}
-
-input[type="submit"]{
+.contenido-txt h2 {
+    font-size: 22px;
     color: #000000;
-    background-color: #ffffff;
-    width: 120px;
-    height: 35px;
-    transform: translateX(60px);
-    margin: 8px 0px;
-    border: none;
-    border-radius: 10px;
-}
-
-input[type="submit"]:hover{
-    background-color: #D5DBDB;
-}
-
-/*Segundo formulario*/
-
-.Login1{
-    border: 2px solid transparent;
-    width: 568px;
-    height: 520px;
-    box-shadow: 0 0 10px var(--color-primer);
-    margin: auto;
-    background-color: rgba(80, 80, 80, 0.1);
-    border-radius: 10px;
-    padding: 20px 0px;
-}
-
-
-.contenido-txt1 h2{
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #000000;
-    transform: translateX(20px);
     font-weight: bold;
-    letter-spacing: 1px;
-    -webkit-text-stroke: 1px #000000;
-}
-
-.contenido-txt1{
-    padding: 6% 23% 0px 15%;
+    margin-bottom: 30px;
     text-align: center;
-   
+    -webkit-text-stroke: 0.5px #000000;
 }
 
-/*Formato formulario*/
-.login-menu_1 , 
-.login-menu_2 , 
-.login-menu_3 , .login-menu_4{
-    padding: 20px 0px 0px;
-    letter-spacing: 1px;
+.container {
+    margin-bottom: 20px;
 }
 
-
-.login-menu_1 input , 
-.login-menu_2 input, 
-.login-menu_3 input, .login-menu_4 input{
-    width: 385px;
-    height: 38px;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #232121;
-    border-radius: 5px;
-    font-size: 16px;
-    padding: 10px;
-    background-color: transparent;
-}
-/*Logo*/
-.login-menu_1 i,
-.login-menu_2 i,
-.login-menu_3 i{
-  float: right;
-  transform: translateY(-25px);
-  cursor: pointer;
-  font-size: 17px;
-  color: #000000;
-}
-
-.login-menu_1 input::placeholder,
-.login-menu_2 input::placeholder,
-.login-menu_3 input::placeholder{
-    margin-left: 70px;
-    color: #736767;
+h4 {
     font-size: 14px;
-}
-
- h3{
-    text-align: left;
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 5px;
+    transform: translateX(10px);
+    color: #000;
 }
 
-.login-menu_4 textarea{
-    width: 385px;
-    height: 75px;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+.login-menu input,
+.login-menu3 select,
+.login-menu4 textarea {
+    width: 100%;
+    height: 36px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    font-size: 16px;
-    padding: 10px;
+    padding: 8px 10px;
+    font-size: 14px;
     background-color: #ffffff;
+    outline: none;
+    color: var(--color-cuear);
 }
 
-#Enviar1{
-    color: #000000;
+.login-menu4 textarea {
+    height: 70px;
+    resize: none;
+}
+
+input[type="submit"] {
     background-color: #ffffff;
+    color: #000000;
     width: 120px;
     height: 35px;
-    transform: translateX(11em);
-    margin: 10px 0px;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 10px;
+    font-size: 14px;
     cursor: pointer;
+    margin-top: 15px;
+    transform: translateY(-1.2em);
+    transition: background 0.3s ease;
 }
 
-#Enviar1:hover{
-    background-color: #D5DBDB;
+input[type="submit"]:hover {
+    background-color: #e0e0e0;
 }
 
-footer{
+footer {
     padding-top: 50px;
 }
 
-.backgrout_footer{
+.backgrout_footer {
     padding: 20px;
-    background-image:linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.4)),
         url(../scr/bg4.jpg);
-        background-attachment: fixed;
-        background-position: center center ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 20vh;
-        object-fit: cover;
-        image-rendering: auto;   
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    object-fit: cover;
+    image-rendering: auto;
 }
 
-.text_footer a{
+.text_footer a {
     color: #ffffff;
     font-size: 17px;
 }
 
-.text_footer_one{
+.text_footer_one {
     padding-top: 20px;
     font-size: 20px;
     color: #ffffff;
 }
 
-/* Media Queries */
-@media (max-width: 991px) {
+@media (max-width: 900px) {
     .Login {
-        width: 90%; /* Reduce the size of the login form */
-        height: auto; /* Let the height adjust based on content */
+        flex-direction: column;
+        width: 95%;
+        height: auto;
     }
 
     .imagen {
-        flex-direction: column; /* Stack images vertically */
-        justify-content: center;
-    }
-
-    .imagen img {
-        width: 100%; /* Make images take up full width */
-        height: 300px; /* Adjust height for smaller screens */
+        width: 100%;
+        height: 200px;
     }
 
     .contenido-txt {
-        padding: 6% 15%; /* Adjust padding for smaller screens */
+        padding: 20px;
     }
 
-    .login-menu input,
-    .login-menu1 input,
-    .login-menu2 input,
-    .login-menu3 input {
-        width: 100%; /* Full-width inputs */
-        transform: translateX(0); /* Remove translation */
+    .text_footer a {
+        margin-left: 7em;
     }
 
-    .login-menu4 textarea,
-    .login-menu3 select {
-        width: 100%; /* Full-width inputs and select */
-        transform: translateX(0);
+    .text_footer_one {
+        margin-left: 4em;
+    }
+}
+
+/* Contenedor principal */
+.image-container {
+    max-width: 600px;
+    /* Reducido a un tamaño más pequeño */
+    margin: 30px auto;
+    padding: 15px;
+    /* background-color: #f0f0f0;  */
+    border-radius: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Contenedor del formulario */
+.Login1 {
+    background-color: #ffffff;
+    padding: 23px;
+    border-radius: 12px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.contenido-txt1 h2 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+/* Estilo de los grupos de formulario */
+.login-menu_1,
+.login-menu_2,
+.login-menu_3,
+.login-menu_4 {
+    margin-bottom: 15px;
+}
+
+/* Títulos de los campos */
+.login-menu_1 h3,
+.login-menu_2 h3,
+.login-menu_3 h3,
+.login-menu_4 h3 {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* Estilo de los campos de entrada */
+.login-menu_1 input,
+.login-menu_2 input,
+.login-menu_3 input,
+.login-menu_4 textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 2px solid #ddd;
+    /* Gris claro */
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    color: #333;
+    outline: none;
+}
+
+/* Estilo del área de texto */
+.login-menu_4 textarea {
+    resize: none;
+    height: 70px;
+}
+
+/* Cambio de color al enfocar los campos */
+.login-menu_1 input:focus,
+.login-menu_2 input:focus,
+.login-menu_3 input:focus,
+.login-menu_4 textarea:focus {
+    border-color: #bbb;
+    /* Gris más oscuro al enfocarse */
+}
+
+/* Estilo del botón de envío */
+#Enviar1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ccc;
+    /* Gris */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#Enviar1:hover {
+    background-color: #bbb;
+    /* Gris más oscuro al pasar el mouse */
+}
+
+/* Estilo de los iconos dentro de los inputs */
+.login-menu_1 i,
+.login-menu_2 i,
+.login-menu_3 i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    /* Gris */
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .image-container {
+        margin: 20px;
+        padding: 15px;
     }
 
-    input[type="submit"] {
-        width: 100%; /* Full-width button */
-        transform: translateX(0);
+    .contenido-txt1 h2 {
+        font-size: 16px;
     }
 
-    /* Adjust the second login form */
     .Login1 {
-        width: 90%; /* Full-width for second login form */
+        padding: 15px;
     }
-
-    .contenido-txt1 {
-        padding: 6% 10%; /* Adjust padding for smaller screens */
-    }
-
-    .login-menu h4{
-      margin-left: 5em;
-    }
-
-    .login-menu1  h4{
-        margin-left: 5em;
-      }
-    .login-menu3 h4{
-        margin-left: 5em;
-    }
-
-    .login-menu4 h4{
-        margin-left: 2em;
-        transform: translateY(2em);
-    }
-
-    .contenido-txt h2{
-        position: absolute;
-        left: 32%; /* Centra horizontalmente */
-        transform: translateY(-80%);
-    }
-
-    .login-menu_1 input,
-    .login-menu_2 input,
-    .login-menu_3 input {
-        width: 100%; /* Full-width inputs */
-        transform: translateX(0); /* Remove translation */
-    }
-
-    .login-menu_4 textarea{
-        width: 100%; /* Full-width inputs */
-        transform: translateX(0); /* Remove translation */
-    }
-
-    #Enviar1{
-        width: 100%; /* Full-width inputs */
-        transform: translateX(0); /* Remove translation */
-    }
-
-   .Login1{
-    height: 550px;
-   }
-
-   .login-menu_1 i,
-  .login-menu_2 i,
-  .login-menu_3 i {
-    font-size: 16px; /* Reducir el tamaño del icono */
-    transform: translateY(-22px);
-    margin-right: 30px; 
-  }
-
-  .login-menu i,
-  .login-menu1 i {
-    font-size: 16px; /* Reducir el tamaño del icono */
-    transform: translateY(-22px);
-    margin-right: 30px; 
-  }
-
-  .text_footer a{
-    margin-left: 7em;
 }
 
-.text_footer_one{
-    margin-left: 4em;
-}
 
-}
 
-@media(max-width:480px){
+
+@media(max-width:480px) {
     .text_footer {
         padding: 1rem;
     }
@@ -408,56 +285,13 @@ footer{
         text-align: center;
         width: 90%;
         margin-left: -1em;
-     }
+    }
 
     .text_footer_one p {
         margin-left: -2em;
-        font-size: 16px; /* Ajusta el tamaño de la fuente si es necesario */
+        font-size: 16px;
+        /* Ajusta el tamaño de la fuente si es necesario */
     }
 
-    .contenido-txt h2 {
-        margin-left: -1.3em;
-        padding-top: 1.6em; /* Reduce el padding lateral para pantallas más pequeñas */
-        text-align: center; /* Asegura que el texto esté centrado */
-    }
 
-    .imagen {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imagen img {
-    width: 100%;
-    height: auto;
-  }
-
-  .contenido-txt {
-    padding: 20px;
-  }
-
-  .login-menu,
-  .login-menu1,
-  .login-menu2 {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .login-menu input,
-  .login-menu1 input,
-  .login-menu2 input {
-    width: 100%;
-  }
-
-  .login-menu i,
-  .login-menu1 i,
-  .login-menu2 i {
-    align-self: flex-end;
-    margin-top: -5px;
-  }
-
-  .login-menu3 select,
-  .login-menu4 textarea {
-    width: 100%;
-  }
-    
 }

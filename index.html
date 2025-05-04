@@ -178,88 +178,84 @@
         </section>
 
         <section class="container">
-            <h2 class="title respo" id="Reviews">Reviews</h2>
-            <div class="image-container">
-                <div class="Login">
-                    <div class="imagen">
-                <img src="./scr/about.jpg" alt="">
-                <div class="contenido-txt">
-                    <h2>Leave Us a Review</h2>
-
-                    <form action="">
-                        <div class="login-menu">
-                            <h4>Name</h4>
-                            <input type="text" placeholder="usuario" required>
-                            <i class='bx bxs-user'></i>
-                        </div>
-                        <div class="login-menu1">
-                            <h4>E -mail</h4>
-                            <input type="email" placeholder="email"  required>
-                            <i class='bx bx-user-circle'></i>
-                        </div>
-
-                        <div class="login-menu3">
-                            <h4>Ratings</h4>
-                            <select name="lenguajes" id="lang">
-                                <option value="javascript"></option>
-                                <option value="php">1 star</option>
-                                <option value="java">2 star</option>
-                                <option value="golang">3 star</option>
-                                <option value="python">4 star</option>
-                                <option value="c#">5 star</option>
-                              </select>
-                        </div>
-
-                        <div class="login-menu4">
-                            <h4>Leave us a review here</h4>
-                            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-                        </div>
-
-
-                        <input type="submit" value="Enviar" id="Enviar">
-                    </form>
+            <h2 class="title" id="Reviews">Reviews</h2>
+            <div class="review-section">
+            <div class="Login">
+                <div class="imagen">
+                  <img src="./scr/about.jpg" alt="Review">
                 </div>
+                <div class="contenido-txt">
+                  <h2>Leave a Review</h2>
+                  <form>
+                    <div class="container login-menu">
+                      <h4>Name</h4>
+                      <input type="text" placeholder="Enter your name" required />
+                    </div>
+              
+                    <div class="container login-menu">
+                      <h4>Email</h4>
+                      <input type="email" placeholder="Enter your email" required />
+                    </div>
+              
+                    <div class="container login-menu3">
+                      <h4>Rating</h4>
+                      <select required>
+                        <option value="">Choose rating</option>
+                        <option value="1">1 star</option>
+                        <option value="2">2 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="5">5 stars</option>
+                      </select>
+                    </div>
+              
+                    <div class="container login-menu4">
+                      <h4>Comment</h4>
+                      <textarea placeholder="Write your comment..." required></textarea>
+                    </div>
+              
+                    <input type="submit" value="Submit" />
+                  </form>
+                </div>
+              </div>
             </div>
-            </div>
-            </div>
-
-        </section>
+          </section>
 
         <section class="container">
             <h2 class="title" id="Contact">Contact Us</h2>
             <div class="image-container">
                 <div class="Login1">
-                <div class="contenido-txt1">
-                    <h2>We'd Love to Hear From You</h2>
-
-                    <form action="">
-                        <div class="login-menu_1">
-                            <h3>Name</h3>
-                            <input type="Usuario" placeholder="" required>
-                            <i class='bx bxs-user'></i>
-                        </div>
-                        <div class="login-menu_2">
-                            <h3>E -mail</h3>
-                            <input type="email" placeholder=""  required>
-                            <i class='bx bx-user-circle'></i>
-                        </div>
-
-                        <div class="login-menu_3">
-                            <h3>Phone</h3>
-                            <input type="text" placeholder="" required>
-                            <i class='bx bxs-phone'></i>
-                        </div>
-
-                        <div class="login-menu_4">
-                            <h3>Message/Comments</h3>
-                            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-                        </div>
-
-                        <input type="submit" value="Enviar" id="Enviar1">
-                    </form>
+                    <div class="contenido-txt1">
+                        <h2>We'd Love to Hear From You</h2>
+            
+                        <form action="">
+                            <div class="login-menu_1">
+                                <h3>Name</h3>
+                                <input type="text" placeholder="Enter your name" required>
+                                <i class='bx bxs-user'></i>
+                            </div>
+            
+                            <div class="login-menu_2">
+                                <h3>Email</h3>
+                                <input type="email" placeholder="Enter your email" required>
+                                <i class='bx bx-user-circle'></i>
+                            </div>
+            
+                            <div class="login-menu_3">
+                                <h3>Phone</h3>
+                                <input type="text" placeholder="Enter your phone number" required>
+                                <i class='bx bxs-phone'></i>
+                            </div>
+            
+                            <div class="login-menu_4">
+                                <h3>Message/Comments</h3>
+                                <textarea placeholder="Your message..." rows="4" required></textarea>
+                            </div>
+            
+                            <input type="submit" value="Send Message" id="Enviar1">
+                        </form>
+                    </div>
                 </div>
-            </div>
-            </div>
             </div>
         </section>
     </main>
