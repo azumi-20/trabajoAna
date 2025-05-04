@@ -308,6 +308,9 @@ footer {
     .Login1 {
         padding: 15px;
     }
+    .text_footer_one{
+        text-align: center;
+    }
 }
 
 
