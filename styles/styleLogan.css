@@ -261,7 +261,7 @@ footer{
     background-image:linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.4)),
-        url(/PaginaAna/scr/bg4.jpg);
+        url(../scr/bg4.jpg);
         background-attachment: fixed;
         background-position: center center ;
         background-repeat: no-repeat;

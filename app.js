@@ -1,7 +1,7 @@
-let bars = document.querySelector(".bars")
+let bars = document.querySelector("#nav__toggle")
 
 bars.onclick = function(){
-    let navbar = document.querySelector(".nav-bar")
+    let navbar = document.querySelector(".nav__menu")
     navbar.classList.toggle("active")
 }
 
