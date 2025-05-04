@@ -420,4 +420,44 @@ footer{
         padding-top: 1.6em; /* Reduce el padding lateral para pantallas más pequeñas */
         text-align: center; /* Asegura que el texto esté centrado */
     }
+
+    .imagen {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenido-txt {
+    padding: 20px;
+  }
+
+  .login-menu,
+  .login-menu1,
+  .login-menu2 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .login-menu input,
+  .login-menu1 input,
+  .login-menu2 input {
+    width: 100%;
+  }
+
+  .login-menu i,
+  .login-menu1 i,
+  .login-menu2 i {
+    align-self: flex-end;
+    margin-top: -5px;
+  }
+
+  .login-menu3 select,
+  .login-menu4 textarea {
+    width: 100%;
+  }
+    
 }
