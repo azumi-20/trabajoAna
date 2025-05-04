@@ -237,6 +237,10 @@ header{
         margin-left: 1rem;
         margin-right: 0;
     }
+    .text_title{
+        padding-top: 3em;
+    }
+
 
 }
 
@@ -269,6 +273,10 @@ header{
     .logo-img img {
         width: 80px; /* Ajuste del tamaño de la imagen */
         height: auto;
+    }
+
+    .text_title{
+        padding-top: 2em;
     }
 }
 
