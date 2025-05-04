@@ -121,6 +121,36 @@ footer {
     color: #ffffff;
 }
 
+.email_link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* separación entre icono y texto */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .text_footer_one .telefono {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* separación entre imagen y número */
+  }
+
+  .text_footer_one .telefono i {
+    width: 20px; /* o 16px para más pequeño */
+    height: auto;
+    gap: 10px;
+  }
+
+  .telefono {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* ajusta el espacio */
+    margin-bottom: 10px;
+  }
+  
+
+  
+
 @media (max-width: 900px) {
     .Login {
         flex-direction: column;
@@ -137,13 +167,22 @@ footer {
         padding: 20px;
     }
 
-    .text_footer a {
-        margin-left: 7em;
-    }
-
     .text_footer_one {
-        margin-left: 4em;
-    }
+        text-align: center;
+      }
+    
+      .email_link {
+        justify-content: center;
+        width: 100%;
+      }
+      .telefono{
+        justify-content: center;
+        transform: translateX(-1em);
+      }
+
+      .telefono i{
+        transform: translateX(4.5em);
+      }
 }
 
 /* Contenedor principal */
@@ -278,20 +317,23 @@ footer {
 
 @media(max-width:480px) {
     .text_footer {
-        padding: 1rem;
-    }
-
-    .text_footer a {
-        text-align: center;
-        width: 90%;
-        margin-left: -1em;
-    }
-
-    .text_footer_one p {
-        margin-left: -2em;
-        font-size: 16px;
-        /* Ajusta el tamaño de la fuente si es necesario */
-    }
+        padding: 15px;
+      }
+    
+      .text_footer_one p,
+      .telefono p {
+        font-size: 14px;
+      }
+    
+      .email_link {
+        font-size: 14px;
+        gap: 6px;
+      }
+    
+      .telefono i{
+        transform: translateX(1em);
+      }
+    
 
 
 }
