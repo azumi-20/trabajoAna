@@ -220,6 +220,7 @@ header{
         font-size: 3rem;
         width: 90%;
         text-align: center;
+        margin-top: 2em;
     }
 
     .icono_whastA {
@@ -260,11 +261,8 @@ header{
     .text_title  {
         font-size: 2.5rem; /* Reducir tamaño de texto en pantallas muy pequeñas */
         width: 90%;
+        margin-top: 2em;
         text-align: center;
-    }
-
-    .icono_whastA {
-        margin: 1.5em auto 0; /* Ajuste del margen */
     }
 
     .logo-img img {
