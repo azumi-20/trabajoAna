@@ -177,11 +177,7 @@ footer {
       }
       .telefono{
         justify-content: center;
-        transform: translateX(-1em);
-      }
-
-      .telefono i{
-        transform: translateX(5em);
+        transform: translateX(-2em);
       }
 }
 
