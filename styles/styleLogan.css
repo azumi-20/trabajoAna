@@ -334,6 +334,10 @@ footer {
       .telefono i{
         transform: translateX(1em);
       }
+
+      .text_footer_one{
+        margin-left: 2em;
+      }
     
 
 
