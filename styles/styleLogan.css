@@ -182,6 +182,11 @@ footer {
       .text_footer_one{
         transform: translateX(2em);
       }
+
+      .text_footer_one .final{
+        transform: translateX(1em);
+      }
+    
 }
 
 /* Contenedor principal */
@@ -341,7 +346,7 @@ footer {
       .text_footer_one{
         margin-left: 3.1em;
       }
-    
+
 
 
 }
