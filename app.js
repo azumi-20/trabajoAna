@@ -1,9 +1,21 @@
 let bars = document.querySelector("#nav__toggle")
 
-bars.onclick = function(){
-    let navbar = document.querySelector(".nav__menu")
-    navbar.classList.toggle("active")
+// Al hacer clic en el ícono, alterna la clase 'active' en el menú
+bars.onclick = function() {
+    let navbar = document.querySelector(".nav__menu");
+    navbar.classList.toggle("active");
 }
+
+// Selecciona todos los enlaces dentro del menú
+let links = document.querySelectorAll(".nav__menu ul li a");
+
+// Al hacer clic en un enlace, se cierra el menú
+links.forEach(link => {
+    link.addEventListener("click", function() {
+        let navbar = document.querySelector(".nav__menu");
+        navbar.classList.remove("active");
+    });
+});
 
 const fullImgBox = document.getElementById("fullImgBox")
 const antes = document.getElementById('icono_antes')

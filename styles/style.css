@@ -35,7 +35,7 @@ header{
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 85vh;
+        min-height: 83vh;
 }
 
 .nav-bar{
@@ -46,7 +46,7 @@ header{
 }
 
 .logo-img img{
-    width: 100px;
+    width: 89px;
     height: 89px;
     object-fit: cover;
     cursor: pointer;
@@ -223,10 +223,6 @@ header{
         margin-top: 2em;
     }
 
-    .icono_whastA {
-        margin: 5em auto 0;
-        display: block;
-    }
 
     .logo-img {
         display: flex;
@@ -238,6 +234,12 @@ header{
         margin-left: 1rem;
         margin-right: 0;
     }
+
+    header{
+        height: 20vh;
+    }
+
+    
 
 
 }
