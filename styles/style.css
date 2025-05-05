@@ -170,7 +170,7 @@ header{
         background-color: var(--color-background);
         transition: top .4s;
         padding-block: 4rem;
-        height: 500px;
+        height: 420px;
         box-shadow: 0 8px 16px hsl(166, 85%, 8%, .3);
         overflow: hidden;
         opacity: 0;
