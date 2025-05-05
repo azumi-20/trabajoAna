@@ -235,13 +235,6 @@ header{
         margin-right: 0;
     }
 
-    header{
-        height: 20vh;
-    }
-
-    
-
-
 }
 
 /* Media Query para pantallas de 480px o menos */
@@ -269,6 +262,10 @@ header{
     .logo-img img {
         width: 80px; /* Ajuste del tamaño de la imagen */
         height: auto;
+    }
+
+    header{
+        height: 20vh;
     }
 
 }
